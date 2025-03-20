@@ -80,6 +80,7 @@ li {
   width: 30%;
   margin: 1.5%;
   float: left;
+  
 }
 
 .clearfix {
@@ -114,3 +115,26 @@ footer .container {
     padding:0;
   }
 }
+
+@media only screen and(max-width: 700px){
+  .supporting img {
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .rating h1 {
+    font-size: 2rem; 
+  }
+
+  .gallery img {
+    width: 100%; 
+    margin: 0; 
+  }
+
+  .footer nav {
+    display: none;
+  }
+}
+
+
